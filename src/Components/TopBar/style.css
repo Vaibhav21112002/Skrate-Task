@@ -1,0 +1,36 @@
+.topbar {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    padding-top: 10px;
+}
+
+.pageName {
+    width: 100%;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    gap: 10px;
+}
+
+.userImage {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 20px;
+    line-height: 24px;
+}

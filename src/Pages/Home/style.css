@@ -1,0 +1,19 @@
+.homeMainContent {
+    display: flex;
+}
+
+.homeInfoCards {
+    display: flex;
+    width: 100%;
+    margin: 30px 0px 0px 30px;
+}
+
+.twoCard,
+.oneCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}

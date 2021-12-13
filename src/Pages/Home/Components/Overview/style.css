@@ -1,0 +1,62 @@
+.overviewCards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 10px;
+    border: 1px solid #fdfdfd;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+}
+
+.overviewHeading {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+}
+
+.overviewbtn {
+    background: #f6f7ff;
+    border-radius: 15px;
+    width: 135px;
+    height: 35px;
+    border: 0px solid black;
+}
+
+.overCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0px 15px;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+}
+
+.card1 {
+    width: 100%;
+    height: 100%;
+    background: #f6f7ff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 15px 25px;
+}
+
+.cardName {
+    font-size: 22px;
+    line-height: 36px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.cardNumber {
+    width: 25%;
+    font-size: 35px;
+    line-height: 72px;
+    color: #4f65f6;
+}
