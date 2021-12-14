@@ -1,0 +1,25 @@
+.upcomingCards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.upcomingCard {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px;
+}
+
+.upcoming-card-button {
+    background: #e8c9d1;
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    border: 0px solid black;
+}
+
+.right-arrow {
+    width: 10px;
+}

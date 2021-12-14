@@ -10,7 +10,12 @@ const Overview = (props) => {
         <div className="overviewCards">
             <div className="overviewHeading">
                 <h3>Overview</h3>
-                <button className="overviewbtn">Dashboard</button>
+                <button
+                    className="overviewbtn"
+                    onClick={() => alert("A button was Clicked")}
+                >
+                    Dashboard
+                </button>
             </div>
             <div className="overCards">
                 <div className="card1">
