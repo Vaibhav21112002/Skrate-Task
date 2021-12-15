@@ -1,0 +1,23 @@
+.newCards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.newCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.type,
+.place,
+.location {
+    font-size: 15px;
+}
+
+.type {
+    font-size: 18px;
+}

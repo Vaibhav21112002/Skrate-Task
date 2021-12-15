@@ -1,11 +1,5 @@
 import "./style.css";
-const Overview = (props) => {
-    const dashboard_stats = {
-        profile_views: 50,
-        mentorship_sessions: 5,
-        jobs_applied: 3,
-        skills_verified: 5,
-    };
+const Overview = ({ dashboard_stats }) => {
     return (
         <div className="overviewCards">
             <div className="overviewHeading">
@@ -17,7 +11,7 @@ const Overview = (props) => {
                     Dashboard
                 </button>
             </div>
-            <div className="overCards">
+            {dashboard_stats && <div className="overCards">
                 <div className="card1">
                     <h2 className="cardName">Profile Views</h2>
                     <h2 className="cardNumber">
@@ -42,7 +36,7 @@ const Overview = (props) => {
                         {dashboard_stats.skills_verified}
                     </h2>
                 </div>
-            </div>
+            </div>}
         </div>
     );
 };
