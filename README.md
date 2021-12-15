@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Intern Task - Skrate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Following Link is the hosted URL of the Webpage : https://www.skrate-intern-task.netlify.app
 
 ## Available Scripts
 

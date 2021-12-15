@@ -31,13 +31,16 @@ const Upcoming = ({ upcoming_sessions }) => {
                                 </h4>
                                 <h4 className="upcomingDate">{session.date}</h4>
                             </div>
-                            <button className="upcoming-card-button">
+                            <button
+                                className="upcoming-card-button"
+                                onClick={() => alert("A button was Clicked")}
+                            >
                                 {session.session_type}
                             </button>
                             <div className="right-arrow">
                                 <ArrowRightAltRoundedIcon
                                     onClick={() =>
-                                        alert("A button was clicked"    )
+                                        alert("A button was clicked")
                                     }
                                 />
                             </div>

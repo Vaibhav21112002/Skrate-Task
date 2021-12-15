@@ -3,10 +3,10 @@ import "./style.css";
 import Topbar from "../../Components/TopBar/Topbar";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 
-const Dashboard = () => {
+const Dashboard = ({userName}) => {
     return (
         <div className="home">
-            <Topbar pageName="Dashboard" userName="Stephen" />
+            <Topbar pageName="Dashboard" userName={userName} />
             <div className="homeMainContent">
                 <Sidebar />
                 <div className="Space ">
