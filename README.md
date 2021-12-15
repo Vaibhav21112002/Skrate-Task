@@ -1,6 +1,6 @@
 # Intern Task - Skrate
 
-The Following Link is the hosted URL of the Webpage : https://www.skrate-intern-task.netlify.app
+The Following Link is the hosted URL of the Webpage : https://skrate-intern-task.netlify.app/
 
 ## How to Run the Webpage In Local Environment
 
