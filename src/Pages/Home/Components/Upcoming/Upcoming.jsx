@@ -35,7 +35,11 @@ const Upcoming = ({ upcoming_sessions }) => {
                                 {session.session_type}
                             </button>
                             <div className="right-arrow">
-                                <ArrowRightAltRoundedIcon />
+                                <ArrowRightAltRoundedIcon
+                                    onClick={() =>
+                                        alert("A button was clicked"    )
+                                    }
+                                />
                             </div>
                         </div>
                     ))}

@@ -10,7 +10,6 @@
     padding: 0px 15px;
 }
 
-
 .twoCard,
 .oneCard {
     display: flex;
@@ -22,6 +21,12 @@
     gap: 25px;
 }
 
-.oneCard{
+.oneCard {
     justify-content: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+    .homeMainContent {
+        flex-direction: column;
+    }
 }

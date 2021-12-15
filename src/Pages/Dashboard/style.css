@@ -19,3 +19,9 @@
     border-radius: 20px;
     height: 70vh;
 }
+
+@media screen and (max-width:600px) {
+    .emptySpace{
+        display: none;
+    }
+}

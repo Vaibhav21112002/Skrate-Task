@@ -3,6 +3,7 @@ import "./style.css";
 import Profile from "../../images/profile.jpeg";
 
 const Topbar = (props) => {
+    
     return (
         <div className="topbar">
             <div className="pageName">
